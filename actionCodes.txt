@@ -1,0 +1,3 @@
+0 - move to
+N > 10 - turn N degrees
+1 - 
