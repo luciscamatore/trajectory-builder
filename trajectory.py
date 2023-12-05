@@ -37,7 +37,7 @@ def readInput():
 # calculam vitezele rotilor pentru un vector de input
 def calculareViteza(A, input):
     vectorCoordonata = np.array([input[0], input[1], 0])
-    w = (1/R)*(np.matmul(A,vectorCoordonata))
+    w = ((1/R)*(np.matmul(A,vectorCoordonata)))/40
     return w
 
 # generam coordonatele
